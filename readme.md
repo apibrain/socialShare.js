@@ -41,7 +41,7 @@ Manual injection in your web page:
 <script src="dist/jquery.socialshare.min.js"></script>
 ```
 
-##Simple Usage
+## Simple Usage
 
 This is the minimal configuration required to use the plugin
 
@@ -53,7 +53,8 @@ $(element).socialShare({
 });
 ```
 
-##Advanced Options
+## Advanced Options
+
 property|default value|Description
 --------|-------------|-----------
 url|current page url|The url that will be shared
@@ -69,7 +70,7 @@ toWord|true|to convert count numbers into words eg: 12000 to 12K
 twitterVia|null|string containing the via value for twitter sharing eg: 'ritz078'.Mandatory if twitter is set to true
 twitterHashTags|current page meta tag keywords|comma separated values to be shared as hashtags in a single string.Mandatory if twitter is set to true.
 
-##How to use ?
+## How to use ?
 You can use these 2 classes to make a class clickable(open share dialogue) and show the share counts.
 * **[service]-share** and
 * **[service]-count**
@@ -83,8 +84,7 @@ Class|Description|example
 **[service]-share**|This is the class that becomes a link after clicking on which the sharing dialogue appears| ```<div class="twitter-share"></div>```
 **[service]-count**|Class in which the share count appears|```<span class="twitter-count"></span>```
 
-
-##Example Usage
+## Example Usage
 
 * **HTML can comprise of any structure and tags**
 * **Just use the 2 types of class provided**
@@ -115,8 +115,6 @@ because of the class 'facebook-share'====-->
 		twitterHashTags : 'javascript,jquery'
 	})
 </script>
-
-
 ```
 
 Demo is available at [http://rkritesh.in/socialShare.js](http://rkritesh.in/socialShare.js)
